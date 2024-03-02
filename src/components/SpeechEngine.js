@@ -1,4 +1,3 @@
-// useSpeechEngine.js
 import { useEffect, useRef } from 'react';
 
 const SpeechEngine = (text, playing) => {
