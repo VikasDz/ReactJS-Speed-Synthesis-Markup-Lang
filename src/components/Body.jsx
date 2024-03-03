@@ -17,11 +17,11 @@ function Body() {
         setPlaying((prevPlaying) => !prevPlaying);
     };
     const handleNextClick = () => {
-        setCurrentIndex((currentIndex) => (currentIndex + 1) % Data.length);
+        setCurrentIndex((currentIndex) => (currentIndex + 1));
     };
     const handlePreviousClick = () => {
         if (currentIndex >= 1) {
-            setCurrentIndex((currentIndex) => (currentIndex - 1) % Data.length);
+            setCurrentIndex((currentIndex) => (currentIndex - 1));
         }
     };
 

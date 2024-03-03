@@ -1,5 +1,4 @@
-const articles = [
-
+const Data = [
     {
         content: "This is message from Post 1"
     },
@@ -15,4 +14,5 @@ const articles = [
 
 ];
 
-export default articles;
+export default Data;
+
