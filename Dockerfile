@@ -10,7 +10,6 @@ RUN npm install -g npm@10.5.0
 
 COPY . .
 
-EXPOSE 3000
-
+EXPOSE 5173
 
 CMD ["npm","run","dev"]
